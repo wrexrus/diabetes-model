@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model_svm = pickle.load(open('D:/Diabetes-pred-model/deploy_svm_dataset1/trained_model_svm_dataset1.sav','rb'))
+loaded_model_svm = pickle.load(open('trained_model_svm_dataset1.sav','rb'))
 
 #creating a function for prediction
 
